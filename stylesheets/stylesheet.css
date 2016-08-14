@@ -7,7 +7,8 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71; }
+  color: #606c71; 
+}
 
 a {
   color: #1e6bb8;
@@ -56,8 +57,12 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background-color: #0D1A45;
+  /*background-image: linear-gradient(120deg, #155799, #159957);*/
+  background-image: url('../images/seattle-night.jpg');
+  background-size: 101%;
+  background-repeat: no-repeat;
+}
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -242,4 +247,37 @@ a {
 
 @media screen and (max-width: 42em) {
   .site-footer {
-    font-size: 0.9rem; } }
+    font-size: 0.9rem; 
+  } 
+}
+
+#tagline, #projects, #resume {
+  font-weight: bold;
+}
+
+#tagline {
+  margin-bottom: 0;
+  font-size: 32px;
+  color: white;
+  opacity: 100%;
+}
+
+#tagline-attributes {
+  font-size: 24px;
+}
+
+.crop {
+  margin: auto;
+  width: 400px;
+  height: auto;
+  overflow: hidden;
+}
+
+#profile-img {
+  border-radius: 50%;
+  width:  200px;
+  height: 200px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
