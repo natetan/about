@@ -252,7 +252,7 @@ a {
   } 
 }
 
-#tagline, #projects, #resume {
+#tagline, #projects, #resume, .headings {
   font-weight: bold;
 }
 
@@ -292,7 +292,6 @@ ul {
 }
 
 .headings {
-  font-weight: bold;
   color: black;
 }
 
