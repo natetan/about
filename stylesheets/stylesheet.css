@@ -282,3 +282,20 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.desc {
+  font-size: 40px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.headings {
+  font-weight: bold;
+  color: black;
+}
+
+.project-listing {
+  list-style-type: circle;
+}
