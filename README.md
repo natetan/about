@@ -1,2 +1,2 @@
 # Professional About Me Page
-## Hosted on [Namecheap](yulong.party)
+## Hosted on [Namecheap](http://yulong.party)
