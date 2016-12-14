@@ -5,7 +5,7 @@
 	var currentRiddle;
 
 	window.onload = function() {
-		makeAjaxRequest("riddles.php", storeRiddles);
+		makeAjaxRequest("../riddles.php", storeRiddles);
 		document.querySelector('#answer-area').innerHTML = "";
 		document.querySelector('#answer').onclick = showAnswer;
 		document.querySelector('#next').onclick = getNextRiddle;
