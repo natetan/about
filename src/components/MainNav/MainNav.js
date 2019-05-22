@@ -6,12 +6,15 @@ import Form from 'react-bootstrap/Form';
 import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/Button';
 import NavLink from 'react-bootstrap/NavLink';
+import {Link} from 'react-router-dom';
 
 export default class MainNav extends Component {
   render() {
     return (
       <Navbar bg="dark" variant='dark' expand="lg">
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <Link to='/'>yulong.party</Link>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
