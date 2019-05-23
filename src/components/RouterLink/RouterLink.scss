@@ -1,0 +1,10 @@
+.router-link {
+  .nav-links {
+    color: lightgray;
+    
+    &:hover {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
