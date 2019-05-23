@@ -1,5 +1,17 @@
 {
-  "preface": "When I was younger, I would look to the stars and dream about where I'd be in the future. I thought of flying spaceships and intergalatic space travel. I dreamt of clear skies on sandy beaches, with the waves crashing gently to shore. I saw myself putting blocks together, forming a monumental sculpture raised towards the open sky. This is the story of how I did none of those things.",
-  "chapter_1": "this is the middle",
-  "end": "this is the end"
+  "preface": "When I was younger, I would look to the stars and dream about where I'd be in the future. I thought of flying spaceships and intergalatic space travel. I dreamt of clear skies on sandy beaches, with the waves crashing gently to shore. I saw myself putting blocks together, forming a monumental sculpture raised towards the open sky. Yeah, I did none of those things.",
+  "about": "I didn't always want to be a software developer. I was interesting in architecture at first. I liked the idea of building structures from small pieces and seeing projects built from the ground up. But I realized I was too lazy and sitting in front of a computer screen seemed like the better option. Plus, I'm also building things in code.",
+  "education": "I studied at the University of Washington and graduated with a degree in Informatics in June, 2019. My focus was mainly on software development and design. Some of those courses included full stack web development, mobile development, and design thinking.",
+  "alaskaExperience": [
+    "Used Xamarin to develop and maintain cross-platform mobile applications",
+    "Worked on a machine learning project to predict flight availability",
+    "Developed and maintained REST APIs in C# with the .NET Core framework",
+    "Used ASP .NET and SQL Server to provide a platform for employees to schedule and manage tech support appointments"
+  ],
+  "skills": [
+    "Server-side web dev (Node, Express, .NET)",
+    "Front-end web dev (React, jQuery)",
+    "Mobile dev (Java, Swift, C#)",
+    "Data Wrangling (R, Python)"
+  ]
 }

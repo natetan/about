@@ -14,12 +14,12 @@ export default class HomePage extends Component {
             <img className='page-photo' src={PagePhoto} />
             <h1 className="cover-heading">Yulong Tan</h1>
             <p className="lead title">{'SSD - Student & Software Developer'}</p>
-            <p className="lead subtitle"></p>
             <p className="lead">
               <Button size='lg' variant='success'>
                 <RouterLink to='/about' text='Learn more' />
               </Button>
             </p>
+            <p className='last-updated'>Last Updated: 2019-05-23</p>
           </div>
         </Container>
       </div>
