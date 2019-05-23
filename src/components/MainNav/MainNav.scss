@@ -1,0 +1,11 @@
+.main-nav {
+
+  .nav-links {
+    color: lightgray;
+    
+    &:hover {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}

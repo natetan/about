@@ -11,6 +11,8 @@ function App() {
       <MainNav />
       <Switch>
         <Route exact path={"/"} component={HomePage} />
+        {/* <Route path={"/about"} component={notImplemented} />
+        <Route path={"/projects"} component={notImplemented} /> */}
         <Redirect to={"/"} />
       </Switch>
 
