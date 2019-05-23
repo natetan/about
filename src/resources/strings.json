@@ -13,5 +13,45 @@
     "Front-end web dev (React, jQuery)",
     "Mobile dev (Java, Swift, C#)",
     "Data Wrangling (R, Python)"
-  ]
+  ],
+  "githubUrl": "https://github.com/yulongtan",
+  "projects": 
+    {
+      "av": {
+        "projectName": "Arcane Vortex",
+        "blurb": "Discord bot",
+        "desc": "Discord bot written in Node.js leveraging the Discord.js API. This bot mainly manages a server for the Elder Scrolls Online game.",
+        "url": "https://github.com/fu-snail/Arcane-Vortex"
+      },
+      "bp": {
+        "projectName": "Blood Pact",
+        "blurb": "Website",
+        "desc": "Blood Pact is the website to my INFO 2019 capstone project. The project revolves around building communities for blood donations. This was developed in React.",
+        "url": "https://github.com/yulongtan/bloodpact"
+      },
+      "bp_server": {
+        "projectName": "Blood Pact Server",
+        "blurb": "API",
+        "desc": "This is the server that is used by the Blood Pact website. It is an API written in Node and Express, an utilizes Firebase.",
+        "url": "https://github.com/yulongtan/bloodpact-server"
+      },
+      "planc": {
+        "projectName": "Plan C",
+        "blurb": "iOS App",
+        "desc": "This is the iOS app for my final project in my Swift class. Plan C is an Uber for X service where X = condoms. This app was written in Swift and utilizes Firebase and Google Maps.",
+        "url": "https://github.com/stwahbeh/PlanC"
+      },
+      "linkedqueue": {
+        "projectName": "LinkedQueue",
+        "blurb": "Data Structure",
+        "desc": "This is an earlier project of mine. It's a LinkedList implementation of a Queue data structure and offers many methods. This was written in Java.",
+        "url": "https://github.com/yulongtan/linkedqueue"
+      },
+      "memesquad": {
+        "projectName": "Mapping Shootings",
+        "blurb": "Maps",
+        "desc": "This was the final project for my Digital Geographies class. We used Mapbox to map out shootings in the US in 2018. We used Python to access the Twitter API to find the locations of people tweeting about guns and cross-referenced them.",
+        "url": "https://github.com/kuo22/tweet-frequency-map"
+      }
+    }
 }
