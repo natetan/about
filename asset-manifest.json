@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6228e84a.chunk.css",
+    "main.js": "/static/js/main.b331b92a.chunk.js",
+    "main.js.map": "/static/js/main.b331b92a.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.82a7202c.chunk.js": "/static/js/2.82a7202c.chunk.js",
+    "static/js/2.82a7202c.chunk.js.map": "/static/js/2.82a7202c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d57ae36ce19513429133db8b7df4e521.js": "/precache-manifest.d57ae36ce19513429133db8b7df4e521.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.6228e84a.chunk.css.map": "/static/css/main.6228e84a.chunk.css.map",
+    "static/media/code-background-cropped.jpg": "/static/media/code-background-cropped.edfbc8b6.jpg",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
+    "static/media/midsummer-athens.jpg": "/static/media/midsummer-athens.bedf3d37.jpg",
+    "static/media/milky-way-cropped.png": "/static/media/milky-way-cropped.73cf5dbe.png",
+    "static/media/ny-library-cropped.png": "/static/media/ny-library-cropped.1f210aeb.png",
+    "static/media/HomePage.scss": "/static/media/seattle-night.18be095e.jpg",
+    "static/media/uw-aerial-view-cropped.jpg": "/static/media/uw-aerial-view-cropped.56ef6adf.jpg",
+    "static/media/ux-book.jpg": "/static/media/ux-book.f62667db.jpg",
+    "static/media/ytango-logo.png": "/static/media/ytango-logo.d68016ea.png"
+  }
+}
