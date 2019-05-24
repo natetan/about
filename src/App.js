@@ -5,6 +5,7 @@ import HomePage from './components/HomePage/HomePage';
 import AboutPage from './components/AboutPage/AboutPage';
 import ProjectsPage from './components/ProjectsPage/ProjectsPage';
 import MainNav from './components/MainNav/MainNav';
+import MainFooter from './components/MainFooter/MainFooter';
 import { Redirect, Route, Switch } from "react-router";
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
         <Redirect to={"/"} />
       </Switch>
 
-      {/* <MainFooter /> */}
+      <MainFooter />
     </div>
   );
 }

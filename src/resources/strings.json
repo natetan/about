@@ -14,7 +14,21 @@
     "Mobile dev (Java, Swift, C#)",
     "Data Wrangling (R, Python)"
   ],
-  "githubUrl": "https://github.com/yulongtan",
+  "urls": {
+    "github": "https://github.com/yulongtan",
+    "linkedin": "https://www.linkedin.com/in/yulongtan/",
+    "befunky": "https://www.befunky.com",
+    "i340": "https://info340.github.io/",
+    "jobs": "https://github.com/j-delaney/easy-application",
+    "di": "https://medium.freecodecamp.org/a-quick-intro-to-dependency-injection-what-it-is-and-when-to-use-it-7578c84fa88f",
+    "libgen": "http://gen.lib.rus.ec/",
+    "leaflet": "https://leafletjs.com/",
+    "stateofjs": "https://stateofjs.com/",
+    "classics": "https://www.goodreads.com/shelf/show/greek-classic",
+    "classicArch": "https://www.pinterest.com/johnsjenkins/classical-architecture/",
+    "poetry": "https://bookriot.com/2018/01/19/short-poems/",
+    "reppoem": "https://genius.com/Taylor-swift-why-she-disappeared-poem-annotated"
+  },
   "projects": 
     {
       "av": {

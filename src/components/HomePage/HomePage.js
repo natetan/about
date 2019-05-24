@@ -19,7 +19,6 @@ export default class HomePage extends Component {
                 <RouterLink to='/about' text='Learn more' />
               </Button>
             </p>
-            <p className='last-updated'>Last Updated: 2019-05-23</p>
           </div>
         </Container>
       </div>
