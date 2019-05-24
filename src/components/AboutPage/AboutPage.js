@@ -10,6 +10,7 @@ import MidsummerAthens from '../../images/midsummer-athens.jpg';
 import UWAerialView from '../../images/uw-aerial-view-cropped.jpg';
 import UXBook from '../../images/ux-book.jpg';
 import CodeBackground from '../../images/code-background-cropped.jpg';
+import MotionStopSkate from '../../images/motion-stop-skate.png';
 
 import './AboutPage.scss';
 
@@ -101,6 +102,14 @@ export default class AboutPage extends Component {
             </ul>
           </div>
         </SectionFeature>
+        <hr />
+        <SectionFeature imageOnLeft img={MotionStopSkate} >
+          <h1>
+            {"Activities"}
+          </h1>
+          <p className="lead">{strings.activities}</p>
+        </SectionFeature>
+        <hr />
       </div>
     )
   }
