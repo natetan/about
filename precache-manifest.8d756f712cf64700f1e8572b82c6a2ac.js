@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "092eef04bee7f6601eaf9d0a290e60a3",
+    "revision": "ba6318da246853f424696be461db60c5",
     "url": "/index.html"
   },
   {
-    "revision": "13006474c2fad11a3d19",
-    "url": "/static/css/main.6228e84a.chunk.css"
+    "revision": "a858c16a79e35f0ad716",
+    "url": "/static/css/main.1e3e278b.chunk.css"
   },
   {
-    "revision": "2e117ff119681878c816",
-    "url": "/static/js/2.82a7202c.chunk.js"
+    "revision": "3a4fc106726ea4f7ac4b",
+    "url": "/static/js/2.6eace9ed.chunk.js"
   },
   {
-    "revision": "13006474c2fad11a3d19",
-    "url": "/static/js/main.b331b92a.chunk.js"
+    "revision": "a858c16a79e35f0ad716",
+    "url": "/static/js/main.cf85828f.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -24,16 +24,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/code-background-cropped.edfbc8b6.jpg"
   },
   {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/static/media/logo.5d5d9eef.svg"
-  },
-  {
     "revision": "bedf3d37a58bf23a0f16f8ad7b7b30c7",
     "url": "/static/media/midsummer-athens.bedf3d37.jpg"
   },
   {
     "revision": "73cf5dbe4d3407502c66104f0455870f",
     "url": "/static/media/milky-way-cropped.73cf5dbe.png"
+  },
+  {
+    "revision": "c1075e2a887c4251f88841336a9e97c4",
+    "url": "/static/media/motion-stop-skate.c1075e2a.png"
   },
   {
     "revision": "1f210aebf6f8c5406ce6b8df9081ddd0",
