@@ -50,7 +50,7 @@ export default class MainFooter extends Component {
             <FooterSubItem title='Resources' >
                 <ul className='list-unstyled text-small'>
                   <li>
-                    <a target='_blank' rel='noopener noreferrer' className='footer-link' href={strings.urls.befunky}>beFunky</a>
+                    <a target='_blank' rel='noopener noreferrer' className='footer-link' href={strings.urls.befunky}>befunky</a>
                   </li>
                   <li>
                     <a target='_blank' rel='noopener noreferrer' className='footer-link' href={strings.urls.i340}>Web Dev</a>
