@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import HomePage from './components/HomePage/HomePage';
 import AboutPage from './components/AboutPage/AboutPage';
@@ -18,7 +17,6 @@ function App() {
         <Route path={"/projects"} component={ProjectsPage} />
         <Redirect to={"/"} />
       </Switch>
-
       <MainFooter />
     </div>
   );

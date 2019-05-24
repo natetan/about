@@ -11,7 +11,7 @@ export default class HomePage extends Component {
       <div className='home-page'>
         <Container>
           <div className="home-page-container">
-            <img className='page-photo' src={PagePhoto} />
+            <img className='profile-photo' src={PagePhoto} alt='profile'/>
             <h1 className="cover-heading">Yulong Tan</h1>
             <p className="lead title">{'SSD - Student & Software Developer'}</p>
             <p className="lead">

@@ -21,10 +21,10 @@ export default class MainFooter extends Component {
             </Col>
             <Col md='3'>
               <FooterSubItem title='Contact'>
-                <a href={strings.urls.github} target='_blank'>
+                <a href={strings.urls.github} target='_blank' rel='noopener noreferrer'>
                   <Icon icon={faGithub} size='2x' color='#0fea94' />
                 </a>
-                <a href={strings.urls.linkedin} target='_blank'>
+                <a href={strings.urls.linkedin} target='_blank' rel='noopener noreferrer'>
                   <Icon icon={faLinkedinIn} size='2x' color='#0fea94' />
                 </a>
               </FooterSubItem>
@@ -33,16 +33,16 @@ export default class MainFooter extends Component {
               <FooterSubItem title='Interests' >
                 <ul className='list-unstyled text-small'>
                   <li>
-                    <a target='_blank' className='footer-link' href={strings.urls.leaflet}>GIS</a>
+                    <a target='_blank' rel='noopener noreferrer' className='footer-link' href={strings.urls.leaflet}>GIS</a>
                   </li>
                   <li>
-                    <a target='_blank' className='footer-link' href={strings.urls.classics}>Classics</a>
+                    <a target='_blank' rel='noopener noreferrer' className='footer-link' href={strings.urls.classics}>Classics</a>
                   </li>
                   <li>
-                    <a target='_blank' className='footer-link' href={strings.urls.poetry}>Poetry</a>
+                    <a target='_blank' rel='noopener noreferrer' className='footer-link' href={strings.urls.poetry}>Poetry</a>
                   </li>
                   <li>
-                    <a target='_blank' className='footer-link' href={strings.urls.reppoem}>Why She Disappeared</a></li>
+                    <a target='_blank' rel='noopener noreferrer' className='footer-link' href={strings.urls.reppoem}>Why She Disappeared</a></li>
                 </ul>
               </FooterSubItem>
             </Col>
@@ -50,16 +50,16 @@ export default class MainFooter extends Component {
             <FooterSubItem title='Resources' >
                 <ul className='list-unstyled text-small'>
                   <li>
-                    <a target='_blank' className='footer-link' href={strings.urls.befunky}>beFunky</a>
+                    <a target='_blank' rel='noopener noreferrer' className='footer-link' href={strings.urls.befunky}>beFunky</a>
                   </li>
                   <li>
-                    <a target='_blank' className='footer-link' href={strings.urls.i340}>Web Dev</a>
+                    <a target='_blank' rel='noopener noreferrer' className='footer-link' href={strings.urls.i340}>Web Dev</a>
                   </li>
                   <li>
-                    <a target='_blank' className='footer-link' href={strings.urls.jobs}>SDE Jobs</a>
+                    <a target='_blank' rel='noopener noreferrer' className='footer-link' href={strings.urls.jobs}>SDE Jobs</a>
                   </li>
                   <li>
-                    <a target='_blank' className='footer-link' href={strings.urls.libgen}>Library Genesis</a></li>
+                    <a target='_blank' rel='noopener noreferrer' className='footer-link' href={strings.urls.libgen}>Library Genesis</a></li>
                 </ul>
               </FooterSubItem>
             </Col>

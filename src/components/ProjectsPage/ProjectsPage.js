@@ -20,7 +20,7 @@ export default class ProjectsPage extends Component {
         <div className="header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
           <h1 className="display-4">Projects</h1>
           <p className="lead subtitle">
-            I will showcase some of my more prominent projects here, but all of these can also be found on my <a href={strings.urls.github} target='_blank'>GitHub.</a>
+            I will showcase some of my more prominent projects here, but all of these can also be found on my <a href={strings.urls.github} target='_blank' rel='noopener noreferrer'>GitHub.</a>
           </p>
         </div>
         <Container>

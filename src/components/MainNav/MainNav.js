@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import Form from 'react-bootstrap/Form';
-import FormControl from 'react-bootstrap/FormControl';
-import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 import Logo from '../../images/ytango-logo.png';
 import RouterLink from '../RouterLink/RouterLink';
@@ -16,7 +13,7 @@ export default class MainNav extends Component {
         <Navbar bg="dark" variant='dark' expand="lg">
           <Navbar.Brand>
             <Link to='/' className='nav-links'>
-              <img src={Logo} width='50' height='50' />
+              <img src={Logo} width='50' height='50' alt='logo'/>
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
