@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "13bdd0e4d522eaa8a6eecbedb4710dec",
+    "revision": "986ea5488236ab2b7235a643726aac5e",
     "url": "/index.html"
   },
   {
-    "revision": "ee5ff8c445d244892128",
-    "url": "/static/css/main.1e3e278b.chunk.css"
+    "revision": "cff283c50dec89ea6f5d",
+    "url": "/static/css/main.9fa6f742.chunk.css"
   },
   {
     "revision": "3a4fc106726ea4f7ac4b",
     "url": "/static/js/2.6eace9ed.chunk.js"
   },
   {
-    "revision": "ee5ff8c445d244892128",
-    "url": "/static/js/main.25a8689b.chunk.js"
+    "revision": "cff283c50dec89ea6f5d",
+    "url": "/static/js/main.532bf767.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -22,10 +22,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "edfbc8b6e01de8bfe15d9a0bb429d6d8",
     "url": "/static/media/code-background-cropped.edfbc8b6.jpg"
-  },
-  {
-    "revision": "bedf3d37a58bf23a0f16f8ad7b7b30c7",
-    "url": "/static/media/midsummer-athens.bedf3d37.jpg"
   },
   {
     "revision": "73cf5dbe4d3407502c66104f0455870f",
@@ -38,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1f210aebf6f8c5406ce6b8df9081ddd0",
     "url": "/static/media/ny-library-cropped.1f210aeb.png"
+  },
+  {
+    "revision": "27674f0dea871e0791002e6f9fb02226",
+    "url": "/static/media/programming-langs.27674f0d.png"
   },
   {
     "revision": "18be095e439b5156e8061be23b9237a1",
