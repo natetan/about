@@ -1,6 +1,6 @@
 {
-  "preface": "When I was younger, I would look to the stars and dream about where I'd be in the future. I thought of flying spaceships and intergalatic space travel. I dreamt of clear skies on sandy beaches, with the waves crashing gently to shore. I saw myself putting blocks together, forming a monumental sculpture raised towards the open sky. Yeah, I did none of those things.",
-  "about": "I didn't always want to be a software developer. I was interested in architecture at first. I liked the idea of building structures from small pieces and seeing projects built from the ground up. But I realized I was too lazy and sitting in front of a computer screen seemed like the better option. Plus, I'm also building things in code.",
+  "preface": "A long time ago, in a galaxy far far away, I graduated from Franklin High School in 2014, unsure of what I wanted to do. Nothing really interested me in class, or engaged me in a way that made me think, \"hey, this is something I really want to do when I grow up!\". That all changed when I attended college at the University of Washington and took my first intro programming course.",
+  "about": "I fell in love with programming immediately. I loved being able to create programs that do cool things, and I loved building projects from scratch. However, I felt like I didn't know much, and the subject is vast and ever growing. Over summer of my freshman year, I took the initiative to learn more programming. I studied web development and mobile development for hours everyday and it fueled my passion even more. In that very moment, I knew I wanted a career as a Software Developer.",
   "education": "I studied at the University of Washington and graduated with a degree in Informatics in June, 2019. My focus was mainly on software development and design. Some of those courses included full stack web development, mobile development, and design thinking.",
   "alaskaExperience": [
     "Used Xamarin to develop and maintain cross-platform mobile applications",
@@ -67,6 +67,24 @@
         "blurb": "Maps",
         "desc": "This was the final project for my Digital Geographies class. We used Mapbox to map out shootings in the US in 2018. We used Python to access the Twitter API to find the locations of people tweeting about guns and cross-referenced them.",
         "url": "https://github.com/kuo22/tweet-frequency-map"
+      },
+      "labyrinth": {
+        "projectName": "The Labyrinth",
+        "blurb": "Android App",
+        "desc": "This was my very first Android app that I created. This is a choose-your-own adventure story that resolves around the protagonist (you) trying to make their way out. This app features scary music and a dark story setting.",
+        "url": "https://github.com/yulongtan/labyrinth"
+      },
+      "common_cents": {
+        "projectName": "Common Cents",
+        "blurb": "Android App",
+        "desc": "This is the Android app for my final project in Android develoment. This app  makes splitting and managing costs between people much, much easier.",
+        "url": "https://github.com/yulongtan/commoncents"
+      },
+      "thanos_snap": {
+        "projectName": "Thanos Snap",
+        "blurb": "Website",
+        "desc": "This is a website that lets you upload an image and then performs a Thanos dusting effect (getting snapped) on it This was based off a Red Stapler tutorial.",
+        "url": "https://yulongtan.github.io/thanos-snap/"
       }
     }
 }

@@ -6,7 +6,7 @@ import strings from '../../resources/strings.json';
 import { getRandomQuote } from '../../services/Quotes';
 import h2p from 'html2plaintext';
 import MilkyWay from '../../images/milky-way-cropped.png';
-import MidsummerAthens from '../../images/midsummer-athens.jpg';
+import Programming from '../../images/programming-langs.png';
 import UWAerialView from '../../images/uw-aerial-view-cropped.jpg';
 import UXBook from '../../images/ux-book.jpg';
 import CodeBackground from '../../images/code-background-cropped.jpg';
@@ -31,9 +31,9 @@ export default class AboutPage extends Component {
 
   render() {
     let staticQuote = {
-      content: "The mistakes we make. They make us who we are.",
-      title: 'Ben Parker, probably',
-      link: '#'
+      content: "Success is a lousy teacher. It seduces smart people into thinking they can’t lose.",
+      title: 'Bill Gates',
+      link: 'https://www.toppr.com/bytes/quotes-by-bill-gates/'
     }
 
     let alaskaExperienceItems = strings.alaskaExperience.map((item, index) => {
@@ -61,7 +61,7 @@ export default class AboutPage extends Component {
           <p className="lead">{strings.preface}</p>
         </SectionFeature>
         <hr />
-        <SectionFeature imageOnLeft img={MidsummerAthens} >
+        <SectionFeature imageOnLeft img={Programming} >
           <h1>
             {"About"}
           </h1>
