@@ -2,19 +2,17 @@ import React, { Component, Fragment } from 'react';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import FooterSubItem from './FooterSubItem/FooterSubItem';
 import Icon from '../Icon/Icon';
 import { faGithub, faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faMapMarkedAlt, faEnvelopeOpen, faMobileAlt } from '@fortawesome/free-solid-svg-icons';
 import strings from '../../resources/strings.json';
-import Logo from '../../images/ytango-logo.png';
 import './MainFooter.scss';
 
 export default class MainFooter extends Component {
   render() {
     return (
       <Fragment>
-        <section className="contact-section bg-black">
+        <section id='contact' className="contact-section bg-black">
           <div className="container">
             <Row>
               <Col md={4} className='mb-3 mb-md-0'>
@@ -34,9 +32,7 @@ export default class MainFooter extends Component {
                     <Icon icon={faEnvelopeOpen} color='#64a19d' />
                     <h4 className="text-uppercase m-0">Email</h4>
                     <hr className="my-4" />
-                    <div className="small text-black-50">
-                      <a href="#">yulongtan67@gmail.com</a>
-                    </div>
+                    <div className="small text-black-50">yulongtan67@gmail.com</div>
                   </Card.Body>
                 </Card>
               </Col>

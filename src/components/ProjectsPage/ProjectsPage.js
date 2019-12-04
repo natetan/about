@@ -16,7 +16,7 @@ export default class ProjectsPage extends Component {
       )
     });
     return (
-      <div className='projects-page'>
+      <div id='projects' className='projects-page'>
         <div className="header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
           <h1 className="mb-4">Projects</h1>
           <p className="lead subtitle">

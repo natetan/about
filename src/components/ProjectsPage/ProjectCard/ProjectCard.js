@@ -9,7 +9,7 @@ export default class ProjectCard extends Component {
     let tagDisplay = '';
     if (this.props.project.tags) {
     tagDisplay = this.props.project.tags.map((t, i) => {
-      return <CustomTag text={t} />
+      return <CustomTag text={t} key={i}/>
     });
   }
     return (
