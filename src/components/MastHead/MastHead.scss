@@ -5,11 +5,17 @@
   min-height: 35rem;
   padding: 15rem 0;
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%),
-    url('../../images/bg-masthead.jpg');
+    url("../../images/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+
+  .profile-photo {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+  }
 
   h1 {
     font-family: "Varela Round";
@@ -33,6 +39,11 @@
       font-size: 4rem;
       line-height: 4rem;
     }
+  }
+
+  .profile-photo {
+    width: 200px;
+    height: 200px;
   }
 }
 

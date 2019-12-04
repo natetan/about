@@ -1,7 +1,15 @@
 .project-card {
   margin-bottom: 2rem;
+  text-align: center;
 
   .card {
     min-height: 325px;
+    border: 2px solid #64a19d;
+
+    hr {
+      border-color: #64a19d;
+      border-width: 0.25rem;
+      width: 3rem;
+    }
   }
 }

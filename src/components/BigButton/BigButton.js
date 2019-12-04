@@ -5,8 +5,8 @@ import Button from 'react-bootstrap/Button';
 export default class BigButton extends Component {
   render() {
     return (
-      <Button className='btn btn-primary js-scroll-trigger'>
-        <a href={this.props.link}>{this.props.text}</a>
+      <Button className='btn btn-primary js-scroll-trigger' href={this.props.href} target='_blank'>
+        {this.props.text}
       </Button>
     )
   }
