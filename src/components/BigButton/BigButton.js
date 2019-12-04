@@ -6,7 +6,7 @@ export default class BigButton extends Component {
   render() {
     return (
       <Button className='btn btn-primary js-scroll-trigger'>
-        {this.props.text}
+        <a href={this.props.link}>{this.props.text}</a>
       </Button>
     )
   }

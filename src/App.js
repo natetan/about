@@ -14,12 +14,14 @@ function App() {
     <div className="App" id='page-top'>
       <Navigation />
       <MastHead title='Nate Tan' subtitle={'Aspiring Web Developer'}/>
-      <Switch>
+      <AboutPage />
+      <ProjectsPage />
+      {/* <Switch>
         <Route exact path={"/"} component={HomePage} />
         <Route path={"/about"} component={AboutPage} />
         <Route path={"/projects"} component={ProjectsPage} />
         <Redirect to={"/"} />
-      </Switch>
+      </Switch> */}
       <MainFooter />
     </div>
   );

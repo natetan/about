@@ -15,23 +15,23 @@ export default class Navigation extends Component {
     return (
       <NavBar id='main-nav' expand='lg' variant='dark' fixed='top'>
         <div className="container">
-          <LinkContainer to='/' className='nav-links'>
-            <Navbar.Brand className="js-scroll-trigger" href="#page-top">
+          {/* <LinkContainer to='/' className='nav-links'> */}
+            <Navbar.Brand className="js-scroll-trigger" href="/">
               <img src={Logo} width='50' height='50' alt='logo' />
             </Navbar.Brand>
-          </LinkContainer>
+          {/* </LinkContainer> */}
           <NavBar.Toggle />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
-              <LinkContainer to='/about'>
+              {/* <LinkContainer to='/about'> */}
                 <Nav.Link className='nav-linkz'>About</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to='/projects'>
+              {/* </LinkContainer> */}
+              {/* <LinkContainer to='/projects'> */}
                 <Nav.Link className='nav-linkz'>Projects</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to='/contact'>
+              {/* </LinkContainer> */}
+              {/* <LinkContainer to='/contact'> */}
                 <Nav.Link className='nav-linkz'>Contact</Nav.Link>
-              </LinkContainer>
+              {/* </LinkContainer> */}
             </Nav>
           </Navbar.Collapse>
         </div>

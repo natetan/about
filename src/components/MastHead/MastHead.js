@@ -10,7 +10,7 @@ export default class MastHead extends Component {
           <div className="mx-auto text-center">
             <h1 className="mx-auto my-0 text-uppercase">{this.props.title}</h1>
             <h2 className="text-white-50 mx-auto mt-2 mb-5">{this.props.subtitle}</h2>
-            <BigButton text='Learn More'/>
+            <BigButton text='See Resume'/>
           </div>
         </div>
       </header>

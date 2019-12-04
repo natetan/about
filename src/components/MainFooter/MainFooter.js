@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
-import Container from 'react-bootstrap/Container';
+import React, { Component, Fragment } from 'react';
+import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import FooterSubItem from './FooterSubItem/FooterSubItem';
 import Icon from '../Icon/Icon';
-import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faMapMarkedAlt, faEnvelopeOpen, faMobileAlt } from '@fortawesome/free-solid-svg-icons';
 import strings from '../../resources/strings.json';
 import Logo from '../../images/ytango-logo.png';
 import './MainFooter.scss';
@@ -12,60 +13,66 @@ import './MainFooter.scss';
 export default class MainFooter extends Component {
   render() {
     return (
-      <div className='main-footer'>
-        <Container>
-          <Row>
-            <Col md='3'>
-              <img className='mb-2' src={Logo} alt='logo' width='50' height='50' />
-              <small className="d-block mb-3 copyright">© Yulong Tan 2019</small>
-            </Col>
-            <Col md='3'>
-              <FooterSubItem title='Contact'>
-                <a href={strings.urls.github} target='_blank' rel='noopener noreferrer'>
-                  <Icon icon={faGithub} size='2x' color='#0fea94' />
-                </a>
-                <a href={strings.urls.linkedin} target='_blank' rel='noopener noreferrer'>
-                  <Icon icon={faLinkedinIn} size='2x' color='#0fea94' />
-                </a>
-              </FooterSubItem>
-            </Col>
-            <Col md='3'>
-              <FooterSubItem title='Interests' >
-                <ul className='list-unstyled text-small'>
-                  <li>
-                    <a target='_blank' rel='noopener noreferrer' className='footer-link' href={strings.urls.leaflet}>GIS</a>
-                  </li>
-                  <li>
-                    <a target='_blank' rel='noopener noreferrer' className='footer-link' href={strings.urls.classics}>Classics</a>
-                  </li>
-                  <li>
-                    <a target='_blank' rel='noopener noreferrer' className='footer-link' href={strings.urls.poetry}>Poetry</a>
-                  </li>
-                  <li>
-                    <a target='_blank' rel='noopener noreferrer' className='footer-link' href={strings.urls.reppoem}>Why She Disappeared</a></li>
-                </ul>
-              </FooterSubItem>
-            </Col>
-            <Col md='3'>
-            <FooterSubItem title='Resources' >
-                <ul className='list-unstyled text-small'>
-                  <li>
-                    <a target='_blank' rel='noopener noreferrer' className='footer-link' href={strings.urls.befunky}>befunky</a>
-                  </li>
-                  <li>
-                    <a target='_blank' rel='noopener noreferrer' className='footer-link' href={strings.urls.i340}>Web Dev</a>
-                  </li>
-                  <li>
-                    <a target='_blank' rel='noopener noreferrer' className='footer-link' href={strings.urls.jobs}>SDE Jobs</a>
-                  </li>
-                  <li>
-                    <a target='_blank' rel='noopener noreferrer' className='footer-link' href={strings.urls.libgen}>Library Genesis</a></li>
-                </ul>
-              </FooterSubItem>
-            </Col>
-          </Row>
-        </Container>
-      </div>
+      <Fragment>
+        <section className="contact-section bg-black">
+          <div className="container">
+            <Row>
+              <Col md={4} className='mb-3 mb-md-0'>
+                <Card className='py-4 h-100'>
+                  <Card.Body className='text-center'>
+                    <Icon icon={faMapMarkedAlt} color='#64a19d' />
+                    <h4 className="text-uppercase m-0">Address</h4>
+                    <hr className="my-4" />
+                    <div className="small text-black-50">Definitely not on Mars.</div>
+                  </Card.Body>
+                </Card>
+              </Col>
+
+              <Col md={4} className='mb-3 mb-md-0'>
+                <Card className='py-4 h-100'>
+                  <Card.Body className='text-center'>
+                    <Icon icon={faEnvelopeOpen} color='#64a19d' />
+                    <h4 className="text-uppercase m-0">Email</h4>
+                    <hr className="my-4" />
+                    <div className="small text-black-50">
+                      <a href="#">yulongtan67@gmail.com</a>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Col>
+
+              <Col md={4} className='mb-3 mb-md-0'>
+                <Card className='py-4 h-100'>
+                  <Card.Body className='text-center'>
+                    <Icon icon={faMobileAlt} color='#64a19d' />
+                    <h4 className="text-uppercase m-0">Phone</h4>
+                    <hr className="my-4" />
+                    <div className="small text-black-50">+1 (206) 778-1865</div>
+                  </Card.Body>
+                </Card>
+              </Col>
+            </Row>
+
+            <div className="social d-flex justify-content-center">
+            <a href={strings.urls.github} target='_blank' rel='noopener noreferrer' className='mx-2'>
+                <Icon icon={faGithub} color='#64a19d' size='2x' />
+              </a>
+              <a href={strings.urls.linkedin} target='_blank' rel='noopener noreferrer' className='mx-2'>
+                <Icon icon={faLinkedinIn} color='#64a19d' size='2x' />
+              </a>
+              <a href={strings.urls.instagram} target='_blank' rel='noopener noreferrer' className='mx-2'>
+                <Icon icon={faInstagram} color='#64a19d' size='2x' />
+              </a>
+            </div>
+
+          </div>
+        </section>
+        <footer className="bg-black small text-center text-white-50">
+          <div className="container">
+            Copyright &copy; Nate Y. Tan 2019
+          </div>
+        </footer>
+      </Fragment>
     )
   }
 }
