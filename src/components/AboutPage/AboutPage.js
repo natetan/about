@@ -44,73 +44,16 @@ export default class AboutPage extends Component {
       return <li key={index}>{item}</li>
     });
     return (
-      <div className='about-page'>
-        <Jumbotron>
-          <h1 className='main-title'>
-            {`"${h2p(staticQuote.content)}"`}
-          </h1>
-          <NavLink href={'' + staticQuote.link} target='_blank'>
-            <span>- </span>
-            {`${staticQuote.title}`}
-          </NavLink>
-        </Jumbotron>
-        <SectionFeature img={MilkyWay} >
-          <h1>
-            {"Preface"}
-          </h1>
-          <p className="lead">{strings.preface}</p>
-        </SectionFeature>
-        <hr />
-        <SectionFeature imageOnLeft img={Programming} >
-          <h1>
-            {"About"}
-          </h1>
-          <p className="lead">{strings.about}</p>
-        </SectionFeature>
-        <hr />
-        <SectionFeature img={UWAerialView} >
-          <h1>
-            {"Education"}
-          </h1>
-          <p className="lead">{strings.education}</p>
-        </SectionFeature>
-        <hr />
-        <SectionFeature imageOnLeft img={UXBook} >
-          <h1>
-            {"Experience"}
-          </h1>
-          <div className='text-left'>
-            <p className="lead">Alaska Airlines | Software Developer | 2017 - present</p>
-            <ul>
-              {alaskaExperienceItems}
-            </ul>
+      <section id="about" className="about-page text-center">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-8 mx-auto">
+              <h2 className="text-white mb-4">About</h2>
+              <p className="text-white-50">{strings.about_2}</p>
+            </div>
           </div>
-        </SectionFeature>
-        <hr />
-        <SectionFeature img={CodeBackground} >
-          <h1>
-            {"Skills"}
-          </h1>
-          <div className='text-left'>
-            <p className="lead">Programming</p>
-            <ul>
-              {skills}
-            </ul>
-            <p className="lead">Other</p>
-            <ul>
-              <li>I'm funny (no really, that's a skill)</li>
-            </ul>
-          </div>
-        </SectionFeature>
-        <hr />
-        <SectionFeature imageOnLeft img={MotionStopSkate} >
-          <h1>
-            {"Activities"}
-          </h1>
-          <p className="lead">{strings.activities}</p>
-        </SectionFeature>
-        <hr />
-      </div>
+        </div>
+      </section>
     )
   }
 }

@@ -1,6 +1,7 @@
 {
   "preface": "A long time ago, in a galaxy far far away, I graduated from Franklin High School in 2014, unsure of what I wanted to do. Nothing really interested me in class, or engaged me in a way that made me think, \"hey, this is something I really want to do when I grow up!\". That all changed when I attended college at the University of Washington and took my first intro programming course.",
   "about": "I fell in love with programming immediately. I loved being able to create programs that do cool things, and I loved building projects from scratch. However, I felt like I didn't know much, and the subject is vast and ever growing. Over summer of my freshman year, I took the initiative to learn more programming. I studied web development and mobile development for hours everyday and it fueled my passion even more. In that very moment, I knew I wanted a career as a Software Developer.",
+  "about_2": "I am an aspiring engineer who loves to dabble with web technologies. I love working with libraries and frameworks such as React and Node. My current goal is to be able to write really clean code with a solid ecosystem and to have a mastery of a few languages, such as JavaScript, Java, and Python. In my free time, I like to skateboard and play video games.",
   "education": "I studied at the University of Washington and graduated with a degree in Informatics in June, 2019. My focus was mainly on software development and design. Some of those courses included full stack web development, mobile development, and design thinking.",
   "alaskaExperience": [
     "Used Xamarin to develop and maintain cross-platform mobile applications",
@@ -30,61 +31,60 @@
     "poetry": "https://bookriot.com/2018/01/19/short-poems/",
     "reppoem": "https://genius.com/Taylor-swift-why-she-disappeared-poem-annotated"
   },
-  "projects": 
-    {
-      "av": {
-        "projectName": "Arcane Vortex",
-        "blurb": "Discord bot",
-        "desc": "Discord bot written in Node.js leveraging the Discord.js API. This bot mainly manages a server for the Elder Scrolls Online game.",
-        "url": "https://github.com/fu-snail/Arcane-Vortex"
-      },
-      "bp": {
-        "projectName": "Blood Pact",
-        "blurb": "Website",
-        "desc": "Blood Pact is the website to my INFO 2019 capstone project. The project revolves around building communities for blood donations. This was developed in React.",
-        "url": "https://github.com/yulongtan/bloodpact"
-      },
-      "bp_server": {
-        "projectName": "Blood Pact Server",
-        "blurb": "API",
-        "desc": "This is the server that is used by the Blood Pact website. It is an API written in Node and Express, an utilizes Firebase.",
-        "url": "https://github.com/yulongtan/bloodpact-server"
-      },
-      "planc": {
-        "projectName": "Plan C",
-        "blurb": "iOS App",
-        "desc": "This is the iOS app for my final project in my Swift class. Plan C is an Uber for X service where X = condoms. This app was written in Swift and utilizes Firebase and Google Maps.",
-        "url": "https://github.com/stwahbeh/PlanC"
-      },
-      "linkedqueue": {
-        "projectName": "LinkedQueue",
-        "blurb": "Data Structure",
-        "desc": "This is an earlier project of mine. It's a LinkedList implementation of a Queue data structure and offers many methods. This was written in Java.",
-        "url": "https://github.com/yulongtan/linkedqueue"
-      },
-      "memesquad": {
-        "projectName": "Mapping Shootings",
-        "blurb": "Maps",
-        "desc": "This was the final project for my Digital Geographies class. We used Mapbox to map out shootings in the US in 2018. We used Python to access the Twitter API to find the locations of people tweeting about guns and cross-referenced them.",
-        "url": "https://github.com/kuo22/tweet-frequency-map"
-      },
-      "labyrinth": {
-        "projectName": "The Labyrinth",
-        "blurb": "Android App",
-        "desc": "This was my very first Android app that I created. This is a choose-your-own adventure story that resolves around the protagonist (you) trying to make their way out. This app features scary music and a dark story setting.",
-        "url": "https://github.com/yulongtan/labyrinth"
-      },
-      "common_cents": {
-        "projectName": "Common Cents",
-        "blurb": "Android App",
-        "desc": "This is the Android app for my final project in Android develoment. This app  makes splitting and managing costs between people much, much easier.",
-        "url": "https://github.com/yulongtan/commoncents"
-      },
-      "thanos_snap": {
-        "projectName": "Thanos Snap",
-        "blurb": "Website",
-        "desc": "This is a website that lets you upload an image and then performs a Thanos dusting effect (getting snapped) on it This was based off a Red Stapler tutorial.",
-        "url": "https://yulongtan.github.io/thanos-snap/"
-      }
+  "projects": {
+    "av": {
+      "projectName": "Arcane Vortex",
+      "blurb": "Discord bot",
+      "desc": "Discord bot written in Node.js leveraging the Discord.js API. This bot mainly manages a server for the Elder Scrolls Online game.",
+      "url": "https://github.com/fu-snail/Arcane-Vortex"
+    },
+    "bp": {
+      "projectName": "Blood Pact",
+      "blurb": "Website",
+      "desc": "Blood Pact is the website to my INFO 2019 capstone project. The project revolves around building communities for blood donations. This was developed in React.",
+      "url": "https://github.com/yulongtan/bloodpact"
+    },
+    "bp_server": {
+      "projectName": "Blood Pact Server",
+      "blurb": "API",
+      "desc": "This is the server that is used by the Blood Pact website. It is an API written in Node and Express, an utilizes Firebase.",
+      "url": "https://github.com/yulongtan/bloodpact-server"
+    },
+    "planc": {
+      "projectName": "Plan C",
+      "blurb": "iOS App",
+      "desc": "This is the iOS app for my final project in my Swift class. Plan C is an Uber for X service where X = condoms. This app was written in Swift and utilizes Firebase and Google Maps.",
+      "url": "https://github.com/stwahbeh/PlanC"
+    },
+    "linkedqueue": {
+      "projectName": "LinkedQueue",
+      "blurb": "Data Structure",
+      "desc": "This is an earlier project of mine. It's a LinkedList implementation of a Queue data structure and offers many methods. This was written in Java.",
+      "url": "https://github.com/yulongtan/linkedqueue"
+    },
+    "memesquad": {
+      "projectName": "Mapping Shootings",
+      "blurb": "Maps",
+      "desc": "This was the final project for my Digital Geographies class. We used Mapbox to map out shootings in the US in 2018. We used Python to access the Twitter API to find the locations of people tweeting about guns and cross-referenced them.",
+      "url": "https://github.com/kuo22/tweet-frequency-map"
+    },
+    "labyrinth": {
+      "projectName": "The Labyrinth",
+      "blurb": "Android App",
+      "desc": "This was my very first Android app that I created. This is a choose-your-own adventure story that resolves around the protagonist (you) trying to make their way out. This app features scary music and a dark story setting.",
+      "url": "https://github.com/yulongtan/labyrinth"
+    },
+    "common_cents": {
+      "projectName": "Common Cents",
+      "blurb": "Android App",
+      "desc": "This is the Android app for my final project in Android develoment. This app  makes splitting and managing costs between people much, much easier.",
+      "url": "https://github.com/yulongtan/commoncents"
+    },
+    "thanos_snap": {
+      "projectName": "Thanos Snap",
+      "blurb": "Website",
+      "desc": "This is a website that lets you upload an image and then performs a Thanos dusting effect (getting snapped) on it This was based off a Red Stapler tutorial.",
+      "url": "https://yulongtan.github.io/thanos-snap/"
     }
+  }
 }
