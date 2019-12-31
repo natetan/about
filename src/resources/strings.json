@@ -17,9 +17,9 @@
   ],
   "activities": "When I'm not busy working, I'll most likely be at home playing video games. Some favorites that come to mind are the Assassin's Creed series and The Elder Scrolls Online. If I'm not glued to the screen, I'll either be outside skateboarding or reading a fantasy book.",
   "urls": {
-    "github": "https://github.com/yulongtan",
-    "linkedin": "https://www.linkedin.com/in/yulongtan/",
-    "instagram": "https://www.instagram.com/yulongtango/",
+    "github": "https://github.com/natetan",
+    "linkedin": "https://www.linkedin.com/in/nateytan/",
+    "instagram": "https://www.instagram.com/nateytan/",
     "befunky": "https://www.befunky.com",
     "i340": "https://info340.github.io/",
     "jobs": "https://github.com/j-delaney/easy-application",
@@ -44,14 +44,14 @@
       "projectName": "Blood Pact",
       "blurb": "Website",
       "desc": "Blood Pact is the website to my INFO 2019 capstone project. The project revolves around building communities for blood donations.",
-      "url": "https://github.com/yulongtan/bloodpact",
+      "url": "https://github.com/natetan/bloodpact",
       "tags": ["React", "JavaScript"]
     },
     "bp_server": {
       "projectName": "Blood Pact Server",
       "blurb": "API",
       "desc": "This is the Node API that is used by the Blood Pact website. It serves blood donation locations and sends texts.",
-      "url": "https://github.com/yulongtan/bloodpact-server",
+      "url": "https://github.com/natetan/bloodpact-server",
       "tags": ["Node.js", "Express.js", "Firebase"]
     },
     "planc": {
@@ -65,7 +65,7 @@
       "projectName": "LinkedQueue",
       "blurb": "Data Structure",
       "desc": "This is an earlier project of mine. It's a LinkedList implementation of a Queue data structure and offers many methods.",
-      "url": "https://github.com/yulongtan/linkedqueue",
+      "url": "https://github.com/natetan/linkedqueue",
       "tags": ["Java", "Data Structures"]
     },
     "memesquad": {
@@ -79,14 +79,14 @@
       "projectName": "The Labyrinth",
       "blurb": "Android App",
       "desc": "This was my very first Android app that I created. This is a choose-your-own adventure story that resolves around the protagonist (you) trying to make their way out.",
-      "url": "https://github.com/yulongtan/labyrinth",
+      "url": "https://github.com/natetan/labyrinth",
       "tags": ["Android", "Java"]
     },
     "common_cents": {
       "projectName": "Common Cents",
       "blurb": "Android App",
       "desc": "This is the Android app for my final project in Android develoment. This app  makes splitting and managing costs between people much, much easier.",
-      "url": "https://github.com/yulongtan/commoncents",
+      "url": "https://github.com/natetan/commoncents",
       "tags": ["Android", "Java"]
     },
     "thanos_snap": {
