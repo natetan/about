@@ -34,10 +34,10 @@
   },
   "projects": {
     "av": {
-      "projectName": "Arcane Vortex",
+      "projectName": "Warrior",
       "blurb": "Discord bot",
       "desc": "This is a bot that runs on the Discord chatting application. It features funny commands and utilities for the game Elder Scrolls Online.",
-      "url": "https://github.com/fu-snail/Arcane-Vortex",
+      "url": "https://github.com/natetan/warrior",
       "tags": ["Node.js", "Discord.js"]
     },
     "bp": {
