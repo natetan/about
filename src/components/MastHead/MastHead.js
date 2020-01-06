@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import BigButton from '../BigButton/BigButton';
 import './MastHead.scss';
 import ProfilePhoto from '../../images/ny-library-cropped.png';
-import Resume from '../../resources/tech-resume_v3.pdf';
+import Resume from '../../resources/tech-resume_v4.pdf';
 
 export default class MastHead extends Component {
   render() {
