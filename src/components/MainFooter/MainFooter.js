@@ -1,12 +1,14 @@
-import React, { Component, Fragment } from 'react';
-import Card from 'react-bootstrap/Card';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Icon from '../Icon/Icon';
 import { faGithub, faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faMapMarkedAlt, faEnvelopeOpen, faMobileAlt } from '@fortawesome/free-solid-svg-icons';
-import strings from '../../resources/strings.json';
+import Card from 'react-bootstrap/Card';
+import Col from 'react-bootstrap/Col';
+import React, { Component, Fragment } from 'react';
+import Row from 'react-bootstrap/Row';
+
+import Icon from '../Icon/Icon';
+
 import './MainFooter.scss';
+import strings from '../../resources/strings.json';
 
 export default class MainFooter extends Component {
   render() {
@@ -32,7 +34,7 @@ export default class MainFooter extends Component {
                     <Icon icon={faEnvelopeOpen} color='#64a19d' />
                     <h4 className="text-uppercase m-0">Email</h4>
                     <hr className="my-4" />
-                    <div className="small text-black-50">yulongtan67@gmail.com</div>
+                    <div className="small text-black-50">nytan67@gmail.com</div>
                   </Card.Body>
                 </Card>
               </Col>

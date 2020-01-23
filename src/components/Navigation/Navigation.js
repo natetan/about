@@ -3,7 +3,7 @@ import NavBar from 'react-bootstrap/Navbar';
 import './Navigation.scss';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Logo from '../../images/ytango-logo.png';
+import Logo from '../../images/y-helmet.png';
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 export default class Navigation extends Component {

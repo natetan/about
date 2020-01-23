@@ -93,7 +93,7 @@
       "projectName": "Thanos Snap",
       "blurb": "Website",
       "desc": "This is a website that lets you upload an image and then performs a Thanos dusting effect (getting snapped) on it This was based off a Red Stapler tutorial.",
-      "url": "https://yulongtan.github.io/thanos-snap/",
+      "url": "https://natetan.github.io/thanos-snap/",
       "tags": ["JavaScript", "jQuery"]
     }
   }
