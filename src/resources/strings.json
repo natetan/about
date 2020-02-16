@@ -40,6 +40,13 @@
       "url": "https://github.com/natetan/warrior",
       "tags": ["Node.js", "Discord.js"]
     },
+    "bgadmin": {
+      "projectName": "Bamboo Garden",
+      "blurb": "Website",
+      "desc": "This is the modern remake of the 90's website for Bamboo Garden Vegetarian Cuisine, a Chinese vegetarian restaurant in Seattle.",
+      "url": "https://github.com/natetan/bgadmin",
+      "tags": ["React", "JavaScript"]
+    },
     "bp": {
       "projectName": "Blood Pact",
       "blurb": "Website",
@@ -74,13 +81,6 @@
       "desc": "Digital Geographies project focused on mapping out shootings in the US in 2018 with a Twitter #NRA cross-reference.",
       "url": "https://github.com/kuo22/tweet-frequency-map",
       "tags": ["GIS", "Python", "Twitter"]
-    },
-    "labyrinth": {
-      "projectName": "The Labyrinth",
-      "blurb": "Android App",
-      "desc": "This was my very first Android app that I created. This is a choose-your-own adventure story that resolves around the protagonist (you) trying to make their way out.",
-      "url": "https://github.com/natetan/labyrinth",
-      "tags": ["Android", "Java"]
     },
     "common_cents": {
       "projectName": "Common Cents",

@@ -10,7 +10,7 @@ export default class ProjectsPage extends Component {
   render() {
     let projects = Object.keys(strings.projects).map((item, index) => {
       return (
-        <Col md={4} key={index}>
+        <Col md={6} lg={4} key={index}>
           <ProjectCard project={strings.projects[item]} />
         </Col>
       )
