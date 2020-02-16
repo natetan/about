@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.b20c2246.chunk.css",
-    "main.js": "/static/js/main.7de118ba.chunk.js",
-    "main.js.map": "/static/js/main.7de118ba.chunk.js.map",
+    "main.js": "/static/js/main.dea3faa3.chunk.js",
+    "main.js.map": "/static/js/main.dea3faa3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e9387438.js",
     "runtime-main.js.map": "/static/js/runtime-main.e9387438.js.map",
     "static/js/2.22779d00.chunk.js": "/static/js/2.22779d00.chunk.js",
     "static/js/2.22779d00.chunk.js.map": "/static/js/2.22779d00.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b99a150810be2a40e894345f09b2c212.js": "/precache-manifest.b99a150810be2a40e894345f09b2c212.js",
+    "precache-manifest.9602dd38e62cb8c6f1e6f5592132f9f7.js": "/precache-manifest.9602dd38e62cb8c6f1e6f5592132f9f7.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.b20c2246.chunk.css.map": "/static/css/main.b20c2246.chunk.css.map",
     "static/js/2.22779d00.chunk.js.LICENSE": "/static/js/2.22779d00.chunk.js.LICENSE",
     "static/media/MastHead.scss": "/static/media/bg-masthead.d3b4a514.jpg",
     "static/media/ny-library-cropped.png": "/static/media/ny-library-cropped.1f210aeb.png",
-    "static/media/tech-resume_v4.pdf": "/static/media/tech-resume_v4.37da0166.pdf"
+    "static/media/tech-resume_v6.pdf": "/static/media/tech-resume_v6.49ecc6cc.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.e9387438.js",
     "static/js/2.22779d00.chunk.js",
     "static/css/main.b20c2246.chunk.css",
-    "static/js/main.7de118ba.chunk.js"
+    "static/js/main.dea3faa3.chunk.js"
   ]
 }

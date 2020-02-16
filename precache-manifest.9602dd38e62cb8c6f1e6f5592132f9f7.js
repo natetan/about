@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "491744922340ca551aa1ca5b64e24648",
+    "revision": "20ee06a9313c19b14e1ea4306143e676",
     "url": "/index.html"
   },
   {
-    "revision": "5f8de1f9222ee3fe36de",
+    "revision": "3493c648398a333df972",
     "url": "/static/css/main.b20c2246.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.22779d00.chunk.js.LICENSE"
   },
   {
-    "revision": "5f8de1f9222ee3fe36de",
-    "url": "/static/js/main.7de118ba.chunk.js"
+    "revision": "3493c648398a333df972",
+    "url": "/static/js/main.dea3faa3.chunk.js"
   },
   {
     "revision": "a71a2aaceabc3b823dc2",
@@ -32,7 +32,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ny-library-cropped.1f210aeb.png"
   },
   {
-    "revision": "37da0166cd0ad523d6f84d4cae69084b",
-    "url": "/static/media/tech-resume_v4.37da0166.pdf"
+    "revision": "49ecc6cc0b159a8ea131199e2767a62a",
+    "url": "/static/media/tech-resume_v6.49ecc6cc.pdf"
   }
 ]);
