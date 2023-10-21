@@ -4,7 +4,7 @@ import BigButton from '../BigButton/BigButton';
 
 import './MastHead.scss';
 import ProfilePhoto from '../../images/ny-library-cropped.png';
-import Resume from '../../resources/tech-resume_v6.pdf';
+import Resume from '../../resources/tech-resume.pdf';
 
 export default class MastHead extends Component {
   render() {
