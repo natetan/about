@@ -85,14 +85,14 @@
     "common_cents": {
       "projectName": "Common Cents",
       "blurb": "Android App",
-      "desc": "This is the Android app for my final project in Android develoment. This app  makes splitting and managing costs between people much, much easier.",
+      "desc": "This app makes splitting and managing costs between people much, much easier. It's nice for dining and making sure everyone pays up.",
       "url": "https://github.com/natetan/commoncents",
       "tags": ["Android", "Java"]
     },
     "thanos_snap": {
       "projectName": "Thanos Snap",
       "blurb": "Website",
-      "desc": "This is a website that lets you upload an image and then performs a Thanos dusting effect (getting snapped) on it This was based off a Red Stapler tutorial.",
+      "desc": "This is a website that lets you upload an image and then performs a Thanos dusting effect on it. This was based off a Red Stapler tutorial.",
       "url": "https://natetan.github.io/thanos-snap/",
       "tags": ["JavaScript", "jQuery"]
     }
