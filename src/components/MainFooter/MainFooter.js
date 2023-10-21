@@ -45,14 +45,14 @@ export default class MainFooter extends Component {
                     <Icon icon={faMobileAlt} color='#64a19d' />
                     <h4 className="text-uppercase m-0">Phone</h4>
                     <hr className="my-4" />
-                    <div className="small text-black-50">+1 (206) 778-1865</div>
+                    <div className="small text-black-50">911</div>
                   </Card.Body>
                 </Card>
               </Col>
             </Row>
 
             <div className="social d-flex justify-content-center">
-            <a href={strings.urls.github} target='_blank' rel='noopener noreferrer' className='mx-2'>
+              <a href={strings.urls.github} target='_blank' rel='noopener noreferrer' className='mx-2'>
                 <Icon icon={faGithub} color='#64a19d' size='2x' />
               </a>
               <a href={strings.urls.linkedin} target='_blank' rel='noopener noreferrer' className='mx-2'>
@@ -67,7 +67,7 @@ export default class MainFooter extends Component {
         </section>
         <footer className="bg-black small text-center text-white-50">
           <div className="container">
-            Copyright &copy; Nate Y. Tan 2019
+            Copyright &copy; Nate Y. Tan {new Date().getFullYear()}
           </div>
         </footer>
       </Fragment>
